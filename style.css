@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(9, 3, 58);
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(131, 137, 193);
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+        
+}
+
+.img1 {
+    display: none;
+    height: 70%;
+    
+}
+    
+.passo.ativo {
+    display:block;
+}
+    
+main {
+    text-align: center;
+    max-width: 90%;
+}
+    
+img {
+    max-width: 60%;
+}
+
+.img_animal_ferido {
+    max-width: 700%;
+    height: 80%;
+}
+
+.img_bifurcação {
+    max-width: 700%;
+    height: 80%;
+}
+
+.img_caminho_casa {
+    max-width: 700%;
+    height: 80%;
+}
+
+.img_casa_pantano {
+    max-width: 700%;
+    height: 80%;
+}
+
+.img_caverna_artefato {
+    max-width: 700%;
+    height: 80%;
+}
+
+.img_floresta_encantada {
+    max-width: 700%;
+    height: 80%;
+}
+
+.img_guardião_da_floresta {
+    max-width: 700%;
+    height: 80%;
+}
+
+.img_templo_antigo {
+    max-width: 700%;
+    height: 80%;
+}
+
+.img_armadilha {
+    max-width: 700%;
+    height: 80%;
+}
+
+.img_templo_antigo {
+    max-width: 700%;
+    height: 80%;
+}

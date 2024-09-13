@@ -1,0 +1,93 @@
+<DOCTYPE html>
+    <html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet">
+        <title>Mapa misterioso</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="passo ativo" id="passo-0">
+                <img src="Casa.pantano.webp" class="img_casa_pantano" alt="">
+                <p>Você está em sua casa e encontra um mapa misterioso na caixa de antiguidades,seguir o mapa?</p>
+                <button class="btn-proximo" data-proximo="1">Sim</button>
+                <button class="btn-proximo" data-proximo="8">Não</button>
+            </div>
+            <div class="passo" id="passo-1">
+                <img src="Floresta.encantada.jpg" class="img_floresta_encantada" alt="">
+                <p>Chegada ao Primeiro Local: Floresta Encantada,você sente uma energia mágica ao entrar.
+                    Decisão: explorar a floresta ou seguir o caminho marcado no mapa?</p>
+                <button class="btn-proximo" data-proximo="2">Explorar</button>
+                <button class="btn-proximo" data-proximo="3">Seguir o Caminho</button>
+            </div>
+            <div class="passo" id="passo-2">
+                <img src="Animal.ferido.jpg" class="img_animal_ferido" alt="">
+                <p>Explorando a Floresta você encontra um animal mágico ferido.
+                    Decisão: ajudar o animal?</p>
+                <button class="btn-proximo" data-proximo="4">Sim- Ganhar um amigo mágico que te ajudará mais tarde
+                </button>
+                <button class="btn-proximo" data-proximo="8">Não</button>
+            </div>
+            <div class="passo" id="passo-3">
+                <img src="Bifurcação.avif" class="img_bifurcação" alt="">
+                <p>Seguindo o Caminho no Mapa,você chega a uma bifurcação.
+                    Decisão: Caminho à esquerda ou à direita?</p>
+                <button class="btn-proximo" data-proximo="5">Esquerda</button>
+                <button class="btn-proximo" data-proximo="6">Direita </button>
+            </div>
+            <div class="passo" id="passo-4">
+                <img src="Caverna.artefato.avif" class="img_caverna_artefato" alt="">
+                <p>Com o Animal Mágico ao seu Lado
+                    O animal te guia até uma caverna secreta.
+                    Dentro da caverna, você encontra um artefato antigo.
+                    Decisão: Levar o artefato ou deixá-lo?</p>
+                <button class="btn-proximo" data-proximo="7">Levar </button>
+                <button class="btn-proximo" data-proximo="2">Deixar- Voltar para a floresta e explorar mais </button>
+            </div>
+            <div class="passo" id="passo-5">
+                <img src="Guardião.da.floresta.avif" class="img_guardião_da_floresta" alt="">
+                <p>Caminho à Esquerda: Encontro com um Guardião da Floresta
+                    O guardião pede que você responda a um enigma.
+                    Decisão: Tentar resolver o enigma?</p>
+                <button class="btn-proximo" data-proximo="7">Sim- Se acertar, ganhará uma pista valiosa </button>
+                <button class="btn-proximo" data-proximo="8">Não</button>
+            </div>
+            <div class="passo" id="passo-6">
+                <img src="Armadilha.jpg" class="img_armadilha" alt="">
+                <p> Caminho à Direita: Armadilha
+                    Você cai em uma armadilha e precisa escapar.
+                    Decisão: Usar ferramentas do seu bolso ou tentar sair sozinho?</p>
+                <button class="btn-proximo" data-proximo="7">Ferramentas</button>
+                <button class="btn-proximo" data-proximo="8">Sair sozinho</button>
+            </div>
+            <div class="passo" id="passo-7">
+                <img src="Templo.antigo.avif" class="img_templo_antigo" alt="">
+                <p>Com Poderes Especiais
+                    Você usa seus novos poderes para atravessar obstáculos com facilidade.
+                    Chega ao Templo Antigo onde está escondido o tesouro maior.
+                    Dentro do templo, você encontra dois tesouros:
+                    1. Um baú cheio de ouro.
+                    2. Um livro antigo com segredos mágicos.
+                    Decisão: Escolher o baú ou o livro?</p>
+                <button class="btn-proximo" data-proximo="0">Baú- Fim feliz com riquezas, mas sem conhecimento
+                    adicional</button>
+                <button class="btn-proximo" data-proximo="0">Livro- Ganhar sabedoria mágica e habilidades
+                    especiais.</button>
+            </div>
+            <div class="passo" id="passo-8">
+                <img src="Caminho.casa.webp" class="img_caminho_casa"  alt="">
+                <p>Você acredita que a aventura é grande demais e volta para casa</p>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+    </html>
